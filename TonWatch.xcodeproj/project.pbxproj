@@ -7,15 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F880AD171DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F880AD151DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F880AD1A1DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F880AD131DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework */; };
+		F880AD1B1DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F880AD131DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F880AD201DC281E00083D762 /* MBTAAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD98F1D5E3F9000BC2686 /* MBTAAlert.swift */; };
+		F880AD211DC281E00083D762 /* MBTADirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9901D5E3F9000BC2686 /* MBTADirection.swift */; };
+		F880AD221DC281E00083D762 /* MBTAMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9911D5E3F9000BC2686 /* MBTAMode.swift */; };
+		F880AD231DC281E00083D762 /* MBTAPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9921D5E3F9000BC2686 /* MBTAPrediction.swift */; };
+		F880AD241DC281E00083D762 /* MBTARoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9931D5E3F9000BC2686 /* MBTARoute.swift */; };
+		F880AD251DC281E00083D762 /* MBTASchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9941D5E3F9000BC2686 /* MBTASchedule.swift */; };
+		F880AD261DC281E00083D762 /* MBTAStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9951D5E3F9000BC2686 /* MBTAStop.swift */; };
+		F880AD271DC281E00083D762 /* MBTATrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9961D5E3F9000BC2686 /* MBTATrip.swift */; };
+		F880AD281DC281E00083D762 /* MBTAVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9971D5E3F9000BC2686 /* MBTAVehicle.swift */; };
+		F880AD291DC281E00083D762 /* MKStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9981D5E3F9000BC2686 /* MKStop.swift */; };
+		F880AD2B1DC281E00083D762 /* LocationManagerSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD98E1D5E3F9000BC2686 /* LocationManagerSingleton.swift */; };
+		F880AD2C1DC281E00083D762 /* TransitDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD99A1D5E3F9000BC2686 /* TransitDataFetcher.swift */; };
+		F880AD2D1DC281E00083D762 /* TWService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD99B1D5E3F9000BC2686 /* TWService.swift */; };
+		F880AD2F1DC38B4A0083D762 /* TransitTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F880AD2E1DC38B4A0083D762 /* TransitTableRowController.swift */; };
 		F89CD95C1D5E3B8600BC2686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD95B1D5E3B8600BC2686 /* AppDelegate.swift */; };
 		F89CD95E1D5E3B8600BC2686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD95D1D5E3B8600BC2686 /* ViewController.swift */; };
 		F89CD9611D5E3B8600BC2686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89CD95F1D5E3B8600BC2686 /* Main.storyboard */; };
 		F89CD9631D5E3B8600BC2686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89CD9621D5E3B8600BC2686 /* Assets.xcassets */; };
 		F89CD9661D5E3B8600BC2686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89CD9641D5E3B8600BC2686 /* LaunchScreen.storyboard */; };
 		F89CD9711D5E3B8600BC2686 /* TonWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9701D5E3B8600BC2686 /* TonWatchUITests.swift */; };
+		F89CD9831D5E3E9D00BC2686 /* MBTAWatchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F89CD9821D5E3E9D00BC2686 /* MBTAWatchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89CD9871D5E3E9D00BC2686 /* MBTAWatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89CD9801D5E3E9D00BC2686 /* MBTAWatchFramework.framework */; };
+		F89CD9881D5E3E9D00BC2686 /* MBTAWatchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F89CD9801D5E3E9D00BC2686 /* MBTAWatchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F89CD99C1D5E3F9000BC2686 /* LocationManagerSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD98E1D5E3F9000BC2686 /* LocationManagerSingleton.swift */; };
+		F89CD99D1D5E3F9000BC2686 /* MBTAAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD98F1D5E3F9000BC2686 /* MBTAAlert.swift */; };
+		F89CD99E1D5E3F9000BC2686 /* MBTADirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9901D5E3F9000BC2686 /* MBTADirection.swift */; };
+		F89CD99F1D5E3F9000BC2686 /* MBTAMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9911D5E3F9000BC2686 /* MBTAMode.swift */; };
+		F89CD9A01D5E3F9000BC2686 /* MBTAPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9921D5E3F9000BC2686 /* MBTAPrediction.swift */; };
+		F89CD9A11D5E3F9000BC2686 /* MBTARoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9931D5E3F9000BC2686 /* MBTARoute.swift */; };
+		F89CD9A21D5E3F9000BC2686 /* MBTASchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9941D5E3F9000BC2686 /* MBTASchedule.swift */; };
+		F89CD9A31D5E3F9000BC2686 /* MBTAStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9951D5E3F9000BC2686 /* MBTAStop.swift */; };
+		F89CD9A41D5E3F9000BC2686 /* MBTATrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9961D5E3F9000BC2686 /* MBTATrip.swift */; };
+		F89CD9A51D5E3F9000BC2686 /* MBTAVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9971D5E3F9000BC2686 /* MBTAVehicle.swift */; };
+		F89CD9A61D5E3F9000BC2686 /* MKStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD9981D5E3F9000BC2686 /* MKStop.swift */; };
+		F89CD9A71D5E3F9000BC2686 /* MTBAWatchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F89CD9991D5E3F9000BC2686 /* MTBAWatchKit.h */; };
+		F89CD9A81D5E3F9000BC2686 /* TransitDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD99A1D5E3F9000BC2686 /* TransitDataFetcher.swift */; };
+		F89CD9A91D5E3F9000BC2686 /* TWService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89CD99B1D5E3F9000BC2686 /* TWService.swift */; };
+		F89E7B671DBA935D00D1AFAC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89E7B651DBA935D00D1AFAC /* Interface.storyboard */; };
+		F89E7B691DBA935D00D1AFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89E7B681DBA935D00D1AFAC /* Assets.xcassets */; };
+		F89E7B701DBA935D00D1AFAC /* TonWatch WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F89E7B6F1DBA935D00D1AFAC /* TonWatch WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F89E7B771DBA935D00D1AFAC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E7B761DBA935D00D1AFAC /* InterfaceController.swift */; };
+		F89E7B791DBA935D00D1AFAC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E7B781DBA935D00D1AFAC /* ExtensionDelegate.swift */; };
+		F89E7B7B1DBA935D00D1AFAC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E7B7A1DBA935D00D1AFAC /* NotificationController.swift */; };
+		F89E7B7D1DBA935D00D1AFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89E7B7C1DBA935D00D1AFAC /* Assets.xcassets */; };
+		F89E7B811DBA935D00D1AFAC /* TonWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F89E7B631DBA935C00D1AFAC /* TonWatch WatchKit App.app */; };
+		F8FD92F81D99AEFC0012107E /* SimpleGetHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD92F71D99AEFC0012107E /* SimpleGetHttpRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F880AD181DC2810B0083D762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89CD9501D5E3B8600BC2686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F880AD121DC2810B0083D762;
+			remoteInfo = MBTAWatchFrameworkWatchOS;
+		};
 		F89CD96D1D5E3B8600BC2686 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F89CD9501D5E3B8600BC2686 /* Project object */;
@@ -23,9 +73,81 @@
 			remoteGlobalIDString = F89CD9571D5E3B8600BC2686;
 			remoteInfo = TonWatch;
 		};
+		F89CD9851D5E3E9D00BC2686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89CD9501D5E3B8600BC2686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89CD97F1D5E3E9D00BC2686;
+			remoteInfo = MBTAWatchFramework;
+		};
+		F89E7B711DBA935D00D1AFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89CD9501D5E3B8600BC2686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89E7B6E1DBA935D00D1AFAC;
+			remoteInfo = "TonWatch WatchKit App Extension";
+		};
+		F89E7B7F1DBA935D00D1AFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89CD9501D5E3B8600BC2686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89E7B621DBA935C00D1AFAC;
+			remoteInfo = "TonWatch WatchKit App";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F880AD1F1DC2810B0083D762 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F880AD1B1DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89CD98C1D5E3E9D00BC2686 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F89CD9881D5E3E9D00BC2686 /* MBTAWatchFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E7B871DBA935D00D1AFAC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F89E7B701DBA935D00D1AFAC /* TonWatch WatchKit App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E7B891DBA935D00D1AFAC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F89E7B811DBA935D00D1AFAC /* TonWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F880AD131DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBTAWatchFrameworkWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F880AD151DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBTAWatchFrameworkWatchOS.h; sourceTree = "<group>"; };
+		F880AD161DC2810B0083D762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F880AD2E1DC38B4A0083D762 /* TransitTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitTableRowController.swift; sourceTree = "<group>"; };
 		F89CD9581D5E3B8600BC2686 /* TonWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TonWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CD95B1D5E3B8600BC2686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F89CD95D1D5E3B8600BC2686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,13 +158,50 @@
 		F89CD96C1D5E3B8600BC2686 /* TonWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CD9701D5E3B8600BC2686 /* TonWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonWatchUITests.swift; sourceTree = "<group>"; };
 		F89CD9721D5E3B8600BC2686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89CD9801D5E3E9D00BC2686 /* MBTAWatchFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBTAWatchFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89CD9821D5E3E9D00BC2686 /* MBTAWatchFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBTAWatchFramework.h; sourceTree = "<group>"; };
+		F89CD9841D5E3E9D00BC2686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89CD98E1D5E3F9000BC2686 /* LocationManagerSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerSingleton.swift; sourceTree = "<group>"; };
+		F89CD98F1D5E3F9000BC2686 /* MBTAAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTAAlert.swift; sourceTree = "<group>"; };
+		F89CD9901D5E3F9000BC2686 /* MBTADirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTADirection.swift; sourceTree = "<group>"; };
+		F89CD9911D5E3F9000BC2686 /* MBTAMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTAMode.swift; sourceTree = "<group>"; };
+		F89CD9921D5E3F9000BC2686 /* MBTAPrediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTAPrediction.swift; sourceTree = "<group>"; };
+		F89CD9931D5E3F9000BC2686 /* MBTARoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTARoute.swift; sourceTree = "<group>"; };
+		F89CD9941D5E3F9000BC2686 /* MBTASchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTASchedule.swift; sourceTree = "<group>"; };
+		F89CD9951D5E3F9000BC2686 /* MBTAStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTAStop.swift; sourceTree = "<group>"; };
+		F89CD9961D5E3F9000BC2686 /* MBTATrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTATrip.swift; sourceTree = "<group>"; };
+		F89CD9971D5E3F9000BC2686 /* MBTAVehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTAVehicle.swift; sourceTree = "<group>"; };
+		F89CD9981D5E3F9000BC2686 /* MKStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKStop.swift; sourceTree = "<group>"; };
+		F89CD9991D5E3F9000BC2686 /* MTBAWatchKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBAWatchKit.h; sourceTree = "<group>"; };
+		F89CD99A1D5E3F9000BC2686 /* TransitDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitDataFetcher.swift; sourceTree = "<group>"; };
+		F89CD99B1D5E3F9000BC2686 /* TWService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWService.swift; sourceTree = "<group>"; };
+		F89E7B631DBA935C00D1AFAC /* TonWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TonWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E7B661DBA935D00D1AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F89E7B681DBA935D00D1AFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89E7B6A1DBA935D00D1AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89E7B6F1DBA935D00D1AFAC /* TonWatch WatchKit App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TonWatch WatchKit App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E7B751DBA935D00D1AFAC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F89E7B761DBA935D00D1AFAC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F89E7B781DBA935D00D1AFAC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F89E7B7A1DBA935D00D1AFAC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F89E7B7C1DBA935D00D1AFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89E7B7E1DBA935D00D1AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FD92F71D99AEFC0012107E /* SimpleGetHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleGetHttpRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F880AD0F1DC2810B0083D762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F89CD9551D5E3B8600BC2686 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89CD9871D5E3E9D00BC2686 /* MBTAWatchFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,14 +212,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89CD97C1D5E3E9D00BC2686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E7B6C1DBA935D00D1AFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880AD1A1DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F880AD141DC2810B0083D762 /* MBTAWatchFrameworkWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F880AD151DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.h */,
+				F880AD161DC2810B0083D762 /* Info.plist */,
+			);
+			path = MBTAWatchFrameworkWatchOS;
+			sourceTree = "<group>";
+		};
 		F89CD94F1D5E3B8600BC2686 = {
 			isa = PBXGroup;
 			children = (
 				F89CD95A1D5E3B8600BC2686 /* TonWatch */,
 				F89CD96F1D5E3B8600BC2686 /* TonWatchUITests */,
+				F89CD9811D5E3E9D00BC2686 /* MBTAWatchFramework */,
+				F89E7B641DBA935C00D1AFAC /* TonWatch WatchKit App */,
+				F89E7B731DBA935D00D1AFAC /* TonWatch WatchKit App Extension */,
+				F880AD141DC2810B0083D762 /* MBTAWatchFrameworkWatchOS */,
 				F89CD9591D5E3B8600BC2686 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +257,10 @@
 			children = (
 				F89CD9581D5E3B8600BC2686 /* TonWatch.app */,
 				F89CD96C1D5E3B8600BC2686 /* TonWatchUITests.xctest */,
+				F89CD9801D5E3E9D00BC2686 /* MBTAWatchFramework.framework */,
+				F89E7B631DBA935C00D1AFAC /* TonWatch WatchKit App.app */,
+				F89E7B6F1DBA935D00D1AFAC /* TonWatch WatchKit App Extension.appex */,
+				F880AD131DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +287,111 @@
 			path = TonWatchUITests;
 			sourceTree = "<group>";
 		};
+		F89CD9811D5E3E9D00BC2686 /* MBTAWatchFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F89CD98D1D5E3EF200BC2686 /* MBTADataModel */,
+				F89CD98E1D5E3F9000BC2686 /* LocationManagerSingleton.swift */,
+				F89CD99A1D5E3F9000BC2686 /* TransitDataFetcher.swift */,
+				F89CD99B1D5E3F9000BC2686 /* TWService.swift */,
+				F89CD9821D5E3E9D00BC2686 /* MBTAWatchFramework.h */,
+				F89CD9841D5E3E9D00BC2686 /* Info.plist */,
+				F8FD92F71D99AEFC0012107E /* SimpleGetHttpRequest.swift */,
+			);
+			path = MBTAWatchFramework;
+			sourceTree = "<group>";
+		};
+		F89CD98D1D5E3EF200BC2686 /* MBTADataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F89CD98F1D5E3F9000BC2686 /* MBTAAlert.swift */,
+				F89CD9901D5E3F9000BC2686 /* MBTADirection.swift */,
+				F89CD9911D5E3F9000BC2686 /* MBTAMode.swift */,
+				F89CD9921D5E3F9000BC2686 /* MBTAPrediction.swift */,
+				F89CD9931D5E3F9000BC2686 /* MBTARoute.swift */,
+				F89CD9941D5E3F9000BC2686 /* MBTASchedule.swift */,
+				F89CD9951D5E3F9000BC2686 /* MBTAStop.swift */,
+				F89CD9961D5E3F9000BC2686 /* MBTATrip.swift */,
+				F89CD9971D5E3F9000BC2686 /* MBTAVehicle.swift */,
+				F89CD9981D5E3F9000BC2686 /* MKStop.swift */,
+				F89CD9991D5E3F9000BC2686 /* MTBAWatchKit.h */,
+			);
+			name = MBTADataModel;
+			sourceTree = "<group>";
+		};
+		F89E7B641DBA935C00D1AFAC /* TonWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F89E7B651DBA935D00D1AFAC /* Interface.storyboard */,
+				F89E7B681DBA935D00D1AFAC /* Assets.xcassets */,
+				F89E7B6A1DBA935D00D1AFAC /* Info.plist */,
+			);
+			path = "TonWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		F89E7B731DBA935D00D1AFAC /* TonWatch WatchKit App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F89E7B761DBA935D00D1AFAC /* InterfaceController.swift */,
+				F880AD2E1DC38B4A0083D762 /* TransitTableRowController.swift */,
+				F89E7B781DBA935D00D1AFAC /* ExtensionDelegate.swift */,
+				F89E7B7A1DBA935D00D1AFAC /* NotificationController.swift */,
+				F89E7B7C1DBA935D00D1AFAC /* Assets.xcassets */,
+				F89E7B7E1DBA935D00D1AFAC /* Info.plist */,
+				F89E7B741DBA935D00D1AFAC /* Supporting Files */,
+			);
+			path = "TonWatch WatchKit App Extension";
+			sourceTree = "<group>";
+		};
+		F89E7B741DBA935D00D1AFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89E7B751DBA935D00D1AFAC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F880AD101DC2810B0083D762 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880AD171DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89CD97D1D5E3E9D00BC2686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89CD9831D5E3E9D00BC2686 /* MBTAWatchFramework.h in Headers */,
+				F89CD9A71D5E3F9000BC2686 /* MTBAWatchKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		F880AD121DC2810B0083D762 /* MBTAWatchFrameworkWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F880AD1E1DC2810B0083D762 /* Build configuration list for PBXNativeTarget "MBTAWatchFrameworkWatchOS" */;
+			buildPhases = (
+				F880AD0E1DC2810B0083D762 /* Sources */,
+				F880AD0F1DC2810B0083D762 /* Frameworks */,
+				F880AD101DC2810B0083D762 /* Headers */,
+				F880AD111DC2810B0083D762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBTAWatchFrameworkWatchOS;
+			productName = MBTAWatchFrameworkWatchOS;
+			productReference = F880AD131DC2810B0083D762 /* MBTAWatchFrameworkWatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F89CD9571D5E3B8600BC2686 /* TonWatch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F89CD9751D5E3B8600BC2686 /* Build configuration list for PBXNativeTarget "TonWatch" */;
@@ -106,10 +399,14 @@
 				F89CD9541D5E3B8600BC2686 /* Sources */,
 				F89CD9551D5E3B8600BC2686 /* Frameworks */,
 				F89CD9561D5E3B8600BC2686 /* Resources */,
+				F89CD98C1D5E3E9D00BC2686 /* Embed Frameworks */,
+				F89E7B891DBA935D00D1AFAC /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F89CD9861D5E3E9D00BC2686 /* PBXTargetDependency */,
+				F89E7B801DBA935D00D1AFAC /* PBXTargetDependency */,
 			);
 			name = TonWatch;
 			productName = TonWatch;
@@ -134,22 +431,97 @@
 			productReference = F89CD96C1D5E3B8600BC2686 /* TonWatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F89CD97F1D5E3E9D00BC2686 /* MBTAWatchFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89CD9891D5E3E9D00BC2686 /* Build configuration list for PBXNativeTarget "MBTAWatchFramework" */;
+			buildPhases = (
+				F89CD97B1D5E3E9D00BC2686 /* Sources */,
+				F89CD97C1D5E3E9D00BC2686 /* Frameworks */,
+				F89CD97D1D5E3E9D00BC2686 /* Headers */,
+				F89CD97E1D5E3E9D00BC2686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBTAWatchFramework;
+			productName = MBTAWatchFramework;
+			productReference = F89CD9801D5E3E9D00BC2686 /* MBTAWatchFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F89E7B621DBA935C00D1AFAC /* TonWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89E7B881DBA935D00D1AFAC /* Build configuration list for PBXNativeTarget "TonWatch WatchKit App" */;
+			buildPhases = (
+				F89E7B611DBA935C00D1AFAC /* Resources */,
+				F89E7B871DBA935D00D1AFAC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89E7B721DBA935D00D1AFAC /* PBXTargetDependency */,
+			);
+			name = "TonWatch WatchKit App";
+			productName = "TonWatch WatchKit App";
+			productReference = F89E7B631DBA935C00D1AFAC /* TonWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F89E7B6E1DBA935D00D1AFAC /* TonWatch WatchKit App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89E7B861DBA935D00D1AFAC /* Build configuration list for PBXNativeTarget "TonWatch WatchKit App Extension" */;
+			buildPhases = (
+				F89E7B6B1DBA935D00D1AFAC /* Sources */,
+				F89E7B6C1DBA935D00D1AFAC /* Frameworks */,
+				F89E7B6D1DBA935D00D1AFAC /* Resources */,
+				F880AD1F1DC2810B0083D762 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F880AD191DC2810B0083D762 /* PBXTargetDependency */,
+			);
+			name = "TonWatch WatchKit App Extension";
+			productName = "TonWatch WatchKit App Extension";
+			productReference = F89E7B6F1DBA935D00D1AFAC /* TonWatch WatchKit App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F89CD9501D5E3B8600BC2686 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Armstrong Software LLC";
 				TargetAttributes = {
+					F880AD121DC2810B0083D762 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					F89CD9571D5E3B8600BC2686 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5JFJH6D423;
+						LastSwiftMigration = 0800;
 					};
 					F89CD96B1D5E3B8600BC2686 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = F89CD9571D5E3B8600BC2686;
+					};
+					F89CD97F1D5E3E9D00BC2686 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					F89E7B621DBA935C00D1AFAC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5JFJH6D423;
+						ProvisioningStyle = Automatic;
+					};
+					F89E7B6E1DBA935D00D1AFAC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5JFJH6D423;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -167,12 +539,23 @@
 			projectRoot = "";
 			targets = (
 				F89CD9571D5E3B8600BC2686 /* TonWatch */,
+				F89E7B621DBA935C00D1AFAC /* TonWatch WatchKit App */,
+				F89E7B6E1DBA935D00D1AFAC /* TonWatch WatchKit App Extension */,
 				F89CD96B1D5E3B8600BC2686 /* TonWatchUITests */,
+				F89CD97F1D5E3E9D00BC2686 /* MBTAWatchFramework */,
+				F880AD121DC2810B0083D762 /* MBTAWatchFrameworkWatchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F880AD111DC2810B0083D762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F89CD9561D5E3B8600BC2686 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,9 +573,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89CD97E1D5E3E9D00BC2686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E7B611DBA935C00D1AFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E7B691DBA935D00D1AFAC /* Assets.xcassets in Resources */,
+				F89E7B671DBA935D00D1AFAC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E7B6D1DBA935D00D1AFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E7B7D1DBA935D00D1AFAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F880AD0E1DC2810B0083D762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880AD201DC281E00083D762 /* MBTAAlert.swift in Sources */,
+				F880AD211DC281E00083D762 /* MBTADirection.swift in Sources */,
+				F880AD221DC281E00083D762 /* MBTAMode.swift in Sources */,
+				F880AD231DC281E00083D762 /* MBTAPrediction.swift in Sources */,
+				F880AD241DC281E00083D762 /* MBTARoute.swift in Sources */,
+				F880AD251DC281E00083D762 /* MBTASchedule.swift in Sources */,
+				F880AD261DC281E00083D762 /* MBTAStop.swift in Sources */,
+				F880AD271DC281E00083D762 /* MBTATrip.swift in Sources */,
+				F880AD281DC281E00083D762 /* MBTAVehicle.swift in Sources */,
+				F880AD291DC281E00083D762 /* MKStop.swift in Sources */,
+				F880AD2B1DC281E00083D762 /* LocationManagerSingleton.swift in Sources */,
+				F880AD2C1DC281E00083D762 /* TransitDataFetcher.swift in Sources */,
+				F880AD2D1DC281E00083D762 /* TWService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F89CD9541D5E3B8600BC2686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,13 +637,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89CD97B1D5E3E9D00BC2686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89CD99D1D5E3F9000BC2686 /* MBTAAlert.swift in Sources */,
+				F89CD9A11D5E3F9000BC2686 /* MBTARoute.swift in Sources */,
+				F8FD92F81D99AEFC0012107E /* SimpleGetHttpRequest.swift in Sources */,
+				F89CD99C1D5E3F9000BC2686 /* LocationManagerSingleton.swift in Sources */,
+				F89CD9A91D5E3F9000BC2686 /* TWService.swift in Sources */,
+				F89CD9A41D5E3F9000BC2686 /* MBTATrip.swift in Sources */,
+				F89CD9A51D5E3F9000BC2686 /* MBTAVehicle.swift in Sources */,
+				F89CD9A31D5E3F9000BC2686 /* MBTAStop.swift in Sources */,
+				F89CD99F1D5E3F9000BC2686 /* MBTAMode.swift in Sources */,
+				F89CD9A21D5E3F9000BC2686 /* MBTASchedule.swift in Sources */,
+				F89CD99E1D5E3F9000BC2686 /* MBTADirection.swift in Sources */,
+				F89CD9A01D5E3F9000BC2686 /* MBTAPrediction.swift in Sources */,
+				F89CD9A61D5E3F9000BC2686 /* MKStop.swift in Sources */,
+				F89CD9A81D5E3F9000BC2686 /* TransitDataFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E7B6B1DBA935D00D1AFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E7B7B1DBA935D00D1AFAC /* NotificationController.swift in Sources */,
+				F89E7B791DBA935D00D1AFAC /* ExtensionDelegate.swift in Sources */,
+				F89E7B771DBA935D00D1AFAC /* InterfaceController.swift in Sources */,
+				F880AD2F1DC38B4A0083D762 /* TransitTableRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F880AD191DC2810B0083D762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F880AD121DC2810B0083D762 /* MBTAWatchFrameworkWatchOS */;
+			targetProxy = F880AD181DC2810B0083D762 /* PBXContainerItemProxy */;
+		};
 		F89CD96E1D5E3B8600BC2686 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F89CD9571D5E3B8600BC2686 /* TonWatch */;
 			targetProxy = F89CD96D1D5E3B8600BC2686 /* PBXContainerItemProxy */;
+		};
+		F89CD9861D5E3E9D00BC2686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89CD97F1D5E3E9D00BC2686 /* MBTAWatchFramework */;
+			targetProxy = F89CD9851D5E3E9D00BC2686 /* PBXContainerItemProxy */;
+		};
+		F89E7B721DBA935D00D1AFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89E7B6E1DBA935D00D1AFAC /* TonWatch WatchKit App Extension */;
+			targetProxy = F89E7B711DBA935D00D1AFAC /* PBXContainerItemProxy */;
+		};
+		F89E7B801DBA935D00D1AFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89E7B621DBA935C00D1AFAC /* TonWatch WatchKit App */;
+			targetProxy = F89E7B7F1DBA935D00D1AFAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -237,9 +716,72 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F89E7B651DBA935D00D1AFAC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89E7B661DBA935D00D1AFAC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F880AD1C1DC2810B0083D762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MBTAWatchFrameworkWatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.MBTAWatchFrameworkWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		F880AD1D1DC2810B0083D762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MBTAWatchFrameworkWatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.MBTAWatchFrameworkWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 		F89CD9731D5E3B8600BC2686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -254,8 +796,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -299,8 +843,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -319,6 +865,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -326,22 +873,28 @@
 		F89CD9761D5E3B8600BC2686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JFJH6D423;
 				INFOPLIST_FILE = TonWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F89CD9771D5E3B8600BC2686 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JFJH6D423;
 				INFOPLIST_FILE = TonWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -352,6 +905,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TonWatch;
 			};
 			name = Debug;
@@ -363,13 +917,150 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TonWatch;
+			};
+			name = Release;
+		};
+		F89CD98A1D5E3E9D00BC2686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MBTAWatchFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.MBTAWatchFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F89CD98B1D5E3E9D00BC2686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MBTAWatchFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.MBTAWatchFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F89E7B821DBA935D00D1AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 5JFJH6D423;
+				IBSC_MODULE = TonWatch_WatchKit_App_Extension;
+				INFOPLIST_FILE = "TonWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		F89E7B831DBA935D00D1AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 5JFJH6D423;
+				IBSC_MODULE = TonWatch_WatchKit_App_Extension;
+				INFOPLIST_FILE = "TonWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		F89E7B841DBA935D00D1AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 5JFJH6D423;
+				INFOPLIST_FILE = "TonWatch WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		F89E7B851DBA935D00D1AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 5JFJH6D423;
+				INFOPLIST_FILE = "TonWatch WatchKit App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.TonWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F880AD1E1DC2810B0083D762 /* Build configuration list for PBXNativeTarget "MBTAWatchFrameworkWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F880AD1C1DC2810B0083D762 /* Debug */,
+				F880AD1D1DC2810B0083D762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F89CD9531D5E3B8600BC2686 /* Build configuration list for PBXProject "TonWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -386,6 +1077,7 @@
 				F89CD9771D5E3B8600BC2686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F89CD9781D5E3B8600BC2686 /* Build configuration list for PBXNativeTarget "TonWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +1086,34 @@
 				F89CD97A1D5E3B8600BC2686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89CD9891D5E3E9D00BC2686 /* Build configuration list for PBXNativeTarget "MBTAWatchFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89CD98A1D5E3E9D00BC2686 /* Debug */,
+				F89CD98B1D5E3E9D00BC2686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89E7B861DBA935D00D1AFAC /* Build configuration list for PBXNativeTarget "TonWatch WatchKit App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89E7B841DBA935D00D1AFAC /* Debug */,
+				F89E7B851DBA935D00D1AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89E7B881DBA935D00D1AFAC /* Build configuration list for PBXNativeTarget "TonWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89E7B821DBA935D00D1AFAC /* Debug */,
+				F89E7B831DBA935D00D1AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

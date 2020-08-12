@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBTAWatchFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MBTAWatchFrameworkWatchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>TonWatch WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>TonWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>TonWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F880AD121DC2810B0083D762</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F89CD9571D5E3B8600BC2686</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F89CD96B1D5E3B8600BC2686</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F89CD97F1D5E3E9D00BC2686</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F89E7B621DBA935C00D1AFAC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
